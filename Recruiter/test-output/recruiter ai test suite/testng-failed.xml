@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [recruiter ai test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="login logout test with valid data(failed)">
+    <classes>
+      <class name="testrunners.Loginlogout">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- testrunners.Loginlogout -->
+    </classes>
+  </test> <!-- login logout test with valid data(failed) -->
+</suite> <!-- Failed suite [recruiter ai test suite] -->
